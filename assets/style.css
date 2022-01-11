@@ -1,0 +1,167 @@
+
+h4{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.header{
+    text-align: center;
+    margin-top: 10px;
+
+    --woocommerce: #a46497;
+    --wc-green: #7ad03a;
+    --wc-red: #a00;
+    --wc-orange: #ffba00;
+    --wc-blue: #2ea2cc;
+    --wc-primary: #a46497;
+    --wc-primary-text: white;
+    --wc-secondary: #ebe9eb;
+    --wc-secondary-text: #515151;
+    --wc-highlight: #77a464;
+    --wc-highligh-text: white;
+    --wc-content-bg: #fff;
+    --wc-subtext: #767676;
+    -webkit-font-smoothing: antialiased;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+
+.logo_container{
+    text-decoration: none;
+}
+
+div.tagline{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #808080;
+    text-decoration: none;
+}
+
+.about{
+    text-align: center;
+}
+
+.card bg-secondary{
+    background: rgb(192, 230, 255);
+}
+
+.holdingcontainer{
+    max-width: 100%;
+    display: flex;
+    
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding-top: inherit;
+  }
+
+  .internalcontainerL{
+    flex: 1;
+    background: rgba(206, 205, 205, 0.5);
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+  }
+
+  .internalcontainerM{
+    flex: 1;
+    background: rgba(206, 205, 205, 0.5);
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+  }
+
+  .internalcontainerR{
+    flex: 1;
+    background: rgba(206, 205, 205, 0.5);
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+  }
+
+  @media screen and (max-width: 768px){
+    .holdingcontainer{
+      flex-direction: column-reverse;
+    }
+  }
+
+
+
+
+
+
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    text-decoration: none;
+    margin: 2px 20px;
+}
+
+h1 {
+    color: green;
+}
+
+
+
+
+
+footer {  
+    background: rgba(206, 205, 205, 0.5);  
+     color: rgb(29, 29, 29);  
+     margin-top:100px;  
+   }  
+   
+   .copy {  
+     font-size: 12px;  
+     padding: 10px;  
+     border-top: 1px solid #000000;  
+   }  
+   .footer-middle {  
+     padding-top: 2em;  
+     color: rgb(0, 0, 0);  
+   }  
+   
